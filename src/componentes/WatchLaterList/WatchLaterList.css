@@ -1,0 +1,13 @@
+.watch-later-list {
+  margin: 15px;
+}
+
+.watch-later-list > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.watch-later-list h2{
+  text-align: center;
+}
